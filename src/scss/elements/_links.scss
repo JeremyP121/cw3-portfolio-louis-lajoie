@@ -1,0 +1,23 @@
+a{
+  &:link{
+    color: var(--color-links);
+    text-decoration: none;
+  }
+
+  &:visited{
+    color: var(--color-links-visited);
+  }
+
+  &:hover{
+    color: var(--color-links-hover);
+    text-decoration: underline;
+  }
+
+  &:active{
+    color: var(--color-links-active);
+  }
+
+  &:focus{
+    color: var(--color-links-focus);
+  }
+}
