@@ -1,0 +1,17 @@
+.creations{
+  padding: var(--padding-thin);
+  margin: var(--margin-large) auto;
+}
+
+article{
+  width: 32%;
+
+  h3{
+    line-height: var(--lh-medium);
+  }
+
+  p{
+    //color: var(--color-text-primary);
+    line-height: var(--lh-normal);
+  }
+}

@@ -1,0 +1,14 @@
+.footer-principal{
+  background: var(--color-bg-tertiary);
+
+  min-height: 96px;
+
+  padding: var(--padding-large);
+
+  p{
+    color: var(--color-text-secondary);
+    line-height: var(--lh-normal);
+
+    padding: 15px;
+  }
+}
