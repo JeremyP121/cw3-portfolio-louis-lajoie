@@ -1,0 +1,15 @@
+/* -------------------- Sass -------------------- */
+.footer-principal{
+  background: var(--color-bg-tertiary);
+
+  min-height: 96px;
+
+  color: var(--color-text-secondary);
+
+  padding: var(--padding-large);
+
+  div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

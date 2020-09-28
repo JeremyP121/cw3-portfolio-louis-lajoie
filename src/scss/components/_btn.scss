@@ -1,0 +1,30 @@
+/* -------------------- Sass -------------------- */
+a.btn{
+  background: var(--color-bg-gradient);
+
+  &:link{
+    color: var(--color-text-secondary);
+    text-decoration: none;
+  }
+
+  &:visited{
+    color: var(--color-links-visited);
+  }
+
+  &:hover{
+    color: var(--color-links-hover);
+    text-decoration: underline;
+  }
+
+  &:active{
+    color: var(--color-links-active);
+  }
+
+  &:focus{
+    color: var(--color-links-focus);
+  }
+}
+
+.btn-medium{
+  padding: var(--padding-thin) var(--padding-large);
+}

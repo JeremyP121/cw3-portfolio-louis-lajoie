@@ -1,0 +1,48 @@
+/* -------------------- Sass -------------------- */
+.creations{
+  margin: var(--margin-large) auto;
+  padding: var(--padding-thin);
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  article{
+    padding: var(--padding-thin);
+
+    width: 354px;
+
+    header{
+      img{
+        width: 15%;
+      }
+    }
+  }
+}
+
+
+
+/* -------------------- Médias queries -------------------- */
+@media screen and (min-width: $vw-medium){
+  .creations{
+    flex-direction: row;
+
+    article{
+      width: 365px;
+    }
+  }
+}
+
+@media screen and (min-width: $vw-huge){
+  .creations{
+    flex-direction: row;
+
+    article{
+      width: 380px;
+    }
+  }
+}

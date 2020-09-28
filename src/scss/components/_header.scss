@@ -1,12 +1,12 @@
-/* -------------------- Version mobile -------------------- */
+/* -------------------- Sass -------------------- */
 .header-principal{
   padding: 0 var(--padding-thin);
 
   .flex{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
   }
 
   .logo img{
@@ -39,9 +39,9 @@
 
 
 
-/* -------------------- Version desktop -------------------- */
+/* -------------------- Médias queries -------------------- */
 @media screen and (min-width: $vw-medium){
-  .header-page{
+  .header-principal{
     .flex{
       flex-direction: row;
     }
